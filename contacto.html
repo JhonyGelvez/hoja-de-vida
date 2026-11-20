@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hoja de vida web de Jhoniel Gelvez, estudiante de Ingeniería de Software">
+  <title>Contacto | Jhoniel Gelvez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Serif+4&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="inicio">
+  <header class="nav">
+    <a class="logo" href="index.html">Jhoniel Gelvez</a>
+    <nav>
+      <a href="index.html">Inicio</a><a href="educacion.html">Educación</a><a href="experiencia.html">Experiencia</a><a href="proyectos.html">Proyectos</a><a href="contacto.html" class="on">Contacto</a>
+    </nav>
+  </header>
+  <main class="wrap">
+    <h1>Contacto</h1>
+    <p>Escríbeme y te respondo pronto. También me encuentras en <a href="https://github.com/TU_USUARIO" target="_blank" rel="noopener">GitHub</a> y <a href="https://www.linkedin.com/in/TU_USUARIO" target="_blank" rel="noopener">LinkedIn</a>.</p>
+    <form action="mailto:correo@ejemplo.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre</label><input id="nombre" name="nombre" required>
+      <label for="correo">Correo</label><input id="correo" name="correo" type="email" required>
+      <label for="motivo">Motivo</label>
+      <select id="motivo" name="motivo"><option>Oferta laboral</option><option>Proyecto</option><option>Otro</option></select>
+      <label for="msg">Mensaje</label><textarea id="msg" name="mensaje" rows="5" required></textarea>
+      <label><input type="checkbox" name="acepto" required> Acepto el tratamiento de mis datos</label>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </main>
+  <a class="top" href="#inicio">Subir</a>
+  <footer><p>Hecho con HTML y CSS, publicado en GitHub Pages.<br><small>Última actualización: noviembre de 2026</small></p></footer>
+</body>
+</html>
